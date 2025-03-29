@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#qrCodeUrl {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+#qrCodeGenerate {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#qrCodeGenerate:hover {
+    background-color: #2980b9;
+}
+
+#qrCodeImage {
+    max-width: 300px;
+    margin: 20px auto;
+    display: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.option-group {
+    display: flex;
+    align-items: center;
+}
+
+#downloadQR {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#downloadQR:hover {
+    background-color: #27ae60;
+}
+
+.error {
+    color: #e74c3c;
+    margin-top: 10px;
+}
